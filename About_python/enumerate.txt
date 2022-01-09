@@ -1,0 +1,16 @@
+enumerate:
+for문시 index와 원소를 동시에 접근가능하게 해줄 수 있는 함수.
+사용방법:
+for문의 in 뒷 부분을 enumerate()함수로 한 번 감싸주기만 하면 됨
+
+ex) for entry in enumerate(['A','B','C'])
+	print(entry)
+(0, 'A')
+(0, 'B')
+(0, 'C')
+
+기본적으로 enumerate는 인덱스와 원소로 이루어진 튜플을 만들어줌.
+튜플을 언패킹하려면
+
+ex) for i,letter in enumerate.....
+
