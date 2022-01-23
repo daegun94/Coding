@@ -1,0 +1,9 @@
+from itertools import permutation
+permutation은
+리스트 안의 값들을 조합할 수 있는 함수.
+ex)permutation("ABCD",2)->AB AC AD BA BC BD CA CB CD DA DB DC
+ex)permutation(range(3))-->0123 021 102 120 201 210
+permutation(list객체,몇자리조합할건지)
+list객체인데 왜 문자열 "abcd"가 되는지는 모르겠음 ㅠ
+
+
